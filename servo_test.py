@@ -14,9 +14,11 @@ print ("rotating servo 180 degrees")
 duty = 2
 
 while duty <= 12:
+    servo1.ChangeDutyCycle(duty)
+    time.sleep(1)
     servo1.ChangeDutyCycle(7)
     time.sleep(1)
-    duty = duty + 1
+    # duty = duty + 1
     
 time.sleep(2)
 
