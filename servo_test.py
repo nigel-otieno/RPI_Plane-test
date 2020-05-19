@@ -15,11 +15,12 @@ print ("waiting 2 seconds")
 time.sleep(2)
 
 print ("rotating servo 90 degrees")
-duty = 2
+duty = 0
 
 while True:
     while duty <= 12:
         key = input()
+        
         #Left Servo Control
         if key == "a":
             servo1.ChangeDutyCycle(duty)
