@@ -15,7 +15,7 @@ print ("waiting 2 seconds")
 time.sleep(2)
 
 print ("rotating servo 90 degrees")
-duty = 0
+duty = 2
 
 while True:
     while duty <= 12:
