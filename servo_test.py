@@ -17,25 +17,26 @@ time.sleep(2)
 print ("rotating servo 90 degrees")
 duty = 2
 
-while True:
-    while duty <= 12:
+while duty <= 12:
         key = input()
-        
         #Left Servo Control
-        if key == "a":
-            servo1.ChangeDutyCycle(duty)
-            time.sleep(0.5)
-        elif key == "aa":
-            servo1.ChangeDutyCycle(7)
-            time.sleep(0.5)
-            
-        #Right Servo Control
-        elif key == "q":
-            servo2.ChangeDutyCycle(duty)
-            time.sleep(0.5)
-        elif key == "qq":
-            servo2.ChangeDutyCycle(7)
-            time.sleep(0.5)
+        if key:
+            if key == "aa":
+                servo1.ChangeDutyCycle(7)
+                #time.sleep(0.5)
+            if key == "a":
+                servo1.ChangeDutyCycle(duty)
+                #time.sleep(0.5)
+
+
+            #Right Servo Control
+            if key == "qq":
+                servo2.ChangeDutyCycle(7)
+                #time.sleep(0.5)
+            if key == "q":
+                servo2.ChangeDutyCycle(duty)
+                #time.sleep(0.5)
+        
             
     
 time.sleep(2)
