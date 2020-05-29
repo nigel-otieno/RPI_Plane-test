@@ -1,6 +1,5 @@
 PARTS LIST
   -Raspberry Pi(any version acceptable)
-  
   -PCA9685(Servo Controller)
   
   -Lipo Battery
