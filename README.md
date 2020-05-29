@@ -1,11 +1,18 @@
 PARTS LIST
   -Raspberry Pi(any version acceptable)
+  
   -PCA9685(Servo Controller)
+  
   -Lipo Battery
+  
   -Lipo Charger
+  
   -Brushless Motor/ESC
+  
   -2 Servos
+  
   -Jumper Cables(M/F, M/M, F/F)
+  
   -Portable 10000mah charger
 
 PCA9685 WIRING to RASPBERYY PI
