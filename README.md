@@ -45,7 +45,8 @@ To gain a deeper understading of implementing software and hardware through the 
   sudo killall pigpio(deactivate)
   
 ## *PYGAME INSTALLATION
-  sudo apt-get install python3-pygame
+  *install within project folder
+  - sudo apt-get install python3-pygame
 
 
 
