@@ -1,7 +1,7 @@
 # RASPBERRY PI PLANE
 Raspberry Pi is used to control servos via Adafruit PCA9685. The Raspberry Pi uses Joans PIGPIO library to accurately set and control the brushless motors esc via Pulse Width Modulation(PWM).
 
-# Motivation
+# MOTIVATION
 To gain a deeper understading of implementing software and hardware through the Python Language.
 
 # PROJECT PARTS LIST
@@ -44,7 +44,7 @@ To gain a deeper understading of implementing software and hardware through the 
   sudo pigpiod(activate)
   sudo killall pigpio(deactivate)
   
-## PYGAME INSTALLATION
+## *PYGAME INSTALLATION
   sudo apt-get install python3-pygame
 
 
