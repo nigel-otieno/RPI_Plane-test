@@ -1,6 +1,5 @@
-# *PARTS LIST
-
-### -Raspberry Pi(any version acceptable)
+# PROJECT PARTS LIST
+  -Raspberry Pi(any version 3 & 4 will work)
   
   -PCA9685(Servo Controller)
   
@@ -28,7 +27,8 @@
   *install within a folder your project will be
   - sudo pip3 install adafruit-circuitpython-pca9685
   - sudo pip3 install adafruit-circuitpython-servokit
-  
+ 
+
 
   
   
