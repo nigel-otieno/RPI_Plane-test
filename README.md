@@ -36,13 +36,13 @@ To gain a deeper understading of implementing software and hardware through the 
 
 ## *Joans PIGPIO Library
   *install within project folder
-  wget https://github.com/joan2937/pigpio/archive/master.zip
-  unzip master.zip
-  cd pigpio-master
-  make
-  sudo make install
-  sudo pigpiod(activate)
-  sudo killall pigpio(deactivate)
+  - wget https://github.com/joan2937/pigpio/archive/master.zip
+  - unzip master.zip
+  - cd pigpio-master
+  - make
+  - sudo make install
+  - sudo pigpiod(activate)
+  - sudo killall pigpio(deactivate)
   
 ## *PYGAME INSTALLATION
   *install within project folder
