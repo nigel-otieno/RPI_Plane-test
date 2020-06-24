@@ -1,6 +1,6 @@
-*PARTS LIST
+# *PARTS LIST
 
-  -Raspberry Pi(any version acceptable)
+### -Raspberry Pi(any version acceptable)
   
   -PCA9685(Servo Controller)
   
