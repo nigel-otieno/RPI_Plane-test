@@ -1,5 +1,5 @@
 # RASPBERRY PI PLANE
-Raspberry Pi is used to control an Adafruit PCA9685 to control servos. The Raspberry Pi uses Joans PIGPIO library to accurately set and control the brushless motors esc via Pulse Width Modulation(PWM).
+Raspberry Pi is used to control servos via Adafruit PCA9685. The Raspberry Pi uses Joans PIGPIO library to accurately set and control the brushless motors esc via Pulse Width Modulation(PWM).
 
 # Motivation
 To gain a deeper understading of implementing software and hardware through the Python Language.
@@ -7,7 +7,7 @@ To gain a deeper understading of implementing software and hardware through the 
 # PROJECT PARTS LIST
   -Raspberry Pi(any version 3 & 4 will work)
   
-  -PCA9685(Servo Controller)
+  -AdaFruit PCA9685(Servo Controller)
   
   -Lipo Battery
   
@@ -19,7 +19,7 @@ To gain a deeper understading of implementing software and hardware through the 
   
   -Jumper Cables(M/F, M/M, F/F)
   
-  -Portable 10000mah charger
+  -Portable 10000mah charger(Optional)
 
 
 *PCA9685 WIRING to RASPBERYY PI
