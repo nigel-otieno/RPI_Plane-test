@@ -39,13 +39,20 @@ while not done:
                 pi.set_servo_pulsewidth(4, 1800)    # 80% power
                 time.sleep(3)                
                 print(event.button)
-        
-            if j.get_axis(2):
-                kit.servo[1].angle = 0
-                print(event.axis)
-
+            if j.get_button(10):
+                kit.servo[1].angle = 110
+                print(event.button)
+            if j.get_button(11):
+                kit.servo[0].angle = 110              
+                print(event.button) 
         if event.type == pygame.JOYBUTTONUP:
- 
             print("Joystick button released.")
+        if event.type == pygame.JOYAXISMOTION:
+            if j.get_axis(2):
+                kit.servo[0].angle = 0    
+                print(event.axis)
+            if j.get_axis(1):
+                kit.servo[1].angle = 0    
+                print(event.axis)
         
 pi.stop()
