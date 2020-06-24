@@ -48,6 +48,12 @@ To gain a deeper understading of implementing software and hardware through the 
   *install within project folder
   - sudo apt-get install python3-pygame
 
+## *TROUBLESHOOTING
+  - There was a learning curve for implementing Joans PIGPIO due to a lack of knowledge on how PWM can be used to change frequencies to activating the Electronic Speed Controller(ESC)
+  - Using a lower Kv motor with a larger prop fixed my issue of weighing down the plane
+
+
+
 
 
  
