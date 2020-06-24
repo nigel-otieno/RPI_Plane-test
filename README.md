@@ -1,5 +1,5 @@
 # RASPBERRY PI PLANE
-Raspberry Pi is used to control servos via Adafruit PCA9685. The Raspberry Pi uses Joans PIGPIO library to accurately set and control the brushless motors esc via Pulse Width Modulation(PWM).
+The Raspberry Pi is used as flight controller that proccesses PWM signals using Joans PIGPIO library to effectively send timed PWM signals to specified GPIO pin. By implementing the PCA9685, I was able to control servos by using the pygame library. 
 
 # MOTIVATION
 To gain a deeper understading of implementing software and hardware through the Python Language.
@@ -49,8 +49,10 @@ To gain a deeper understading of implementing software and hardware through the 
   - sudo apt-get install python3-pygame
 
 ## *TROUBLESHOOTING
-  - There was a learning curve for implementing Joans PIGPIO due to a lack of knowledge on how PWM can be used to change frequencies to activating the Electronic Speed Controller(ESC)
-  - Using a lower Kv motor with a larger prop fixed my issue of weighing down the plane
+
+  - There was a learning curve for implementing Joans PIGPIO due to a lack of knowledge on how PWM can be used to change frequencies when activating the Electronic Speed Controller(ESC)
+  - Using a lower Kv motor with a larger prop fixed my issue of weight distribution by increasing more thrust to the motor
+  - Implementing Joans PIGPIO library to accurately set and control the brushless motors esc via Pulse Width Modulation(PWM) was not as efficient using the set_PWM_dutycycle class. However, using the set_servo_pulsewidth class made initializing my esc much easier.
 
 
 
