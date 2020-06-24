@@ -52,7 +52,8 @@ To gain a deeper understading of implementing software and hardware through the 
 
   - There was a learning curve for implementing Joans PIGPIO due to a lack of knowledge on how PWM can be used to change frequencies when activating the Electronic Speed Controller(ESC)
   - Using a lower Kv motor with a larger prop fixed my issue of weight distribution by increasing more thrust to the motor
-  - Implementing Joans PIGPIO library to accurately set and control the brushless motors esc via Pulse Width Modulation(PWM) was not as efficient using the set_PWM_dutycycle class. However, using the set_servo_pulsewidth class made initializing my esc much easier.
+  - Implementing Joans PIGPIO library to accurately set and control the brushless motors esc via Pulse Width Modulation(PWM) was not as efficient using the set_PWM_dutycycle class. However, using the set_servo_pulsewidth class made initializing my esc much easier
+  - Curently having issues controlling raspberry pi without wifi in order to test a real flight.
 
 
 
