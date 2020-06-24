@@ -2,7 +2,7 @@
 Raspberry Pi is used to control an Adafruit PCA9685 to control servos. The Raspberry Pi uses Joans PIGPIO library to accurately set and control the brushless motors esc via Pulse Width Modulation(PWM).
 
 # Motivation
-My motivation for the Raspberry Pi Plane was to gain a deeper understading of implementing software and hardware through the Python Language.
+To gain a deeper understading of implementing software and hardware through the Python Language.
 
 # PROJECT PARTS LIST
   -Raspberry Pi(any version 3 & 4 will work)
@@ -30,12 +30,20 @@ My motivation for the Raspberry Pi Plane was to gain a deeper understading of im
 
 
 *PCA9685 INSTALLATION
-  *install within a folder your project will be
+  *install within project folder
   - sudo pip3 install adafruit-circuitpython-pca9685
   - sudo pip3 install adafruit-circuitpython-servokit
 
-# MODEL SET UP
-![alt text](http://https://github.com/nigel-otieno/RPI_Plane-test/blob/master/Untitled%20Diagram.html)
+*Joans PIGPIO Library
+  *install within project folder
+  wget https://github.com/joan2937/pigpio/archive/master.zip
+  unzip master.zip
+  cd pigpio-master
+  make
+  sudo make install
+  sudo pigpiod(activate)
+  sudo killall pigpio(deactivate)
+
 
  
 
