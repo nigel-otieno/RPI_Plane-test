@@ -19,6 +19,8 @@ To gain a deeper understading of implementing software and hardware through the 
   
   -Jumper Cables(M/F, M/M, F/F)
   
+  -Joystick(wired/wireless)
+  
   -Portable 10000mah charger(Optional)
 
 
