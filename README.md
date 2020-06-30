@@ -15,7 +15,7 @@ To gain a deeper understading of implementing software and hardware through the 
   
   -Brushless Motor/ESC
   
-  -2 Servos
+  -2 9g Servos
   
   -Jumper Cables(M/F, M/M, F/F)
   
