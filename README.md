@@ -1,5 +1,5 @@
 # RASPBERRY PI PLANE
-The Raspberry Pi is used as flight controller that proccesses PWM signals using Joans PIGPIO library to effectively send timed PWM signals to specified GPIO pin. By implementing the PCA9685, I was able to control servos by using the pygame library. 
+The Raspberry Pi is used as flight controller that proccesses PWM signals using Joans PIGPIO library to effectively send timed PWM signals to specified GPIO pin. By integrating AdaFruits PCA9685 servo controller, I was able to control servos movements via pygame library. 
 
 # MOTIVATION
 To gain a deeper understading of implementing software and hardware through the Python Language.
